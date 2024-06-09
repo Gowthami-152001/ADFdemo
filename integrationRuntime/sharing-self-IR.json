@@ -1,0 +1,12 @@
+{
+	"name": "sharing-self-IR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/a0a0bf4b-80fa-409e-8c85-8711ff268407/resourcegroups/rg_gow/providers/Microsoft.DataFactory/factories/gowthami/integrationruntimes/IR-selfhost",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

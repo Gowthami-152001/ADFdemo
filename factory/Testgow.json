@@ -1,0 +1,9 @@
+{
+	"name": "Testgow",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ef47f5fd-9ddc-4a40-a7fc-bbbe014f2afd",
+		"tenantId": "38c9cac9-ea7c-4272-8569-7b45125e2010"
+	}
+}

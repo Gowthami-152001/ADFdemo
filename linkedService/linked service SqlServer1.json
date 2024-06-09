@@ -1,0 +1,18 @@
+{
+	"name": "linked service SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "mydbserver.windows10",
+			"database": "@{gowthami}",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"hostNameInCertificate": "",
+			"authenticationType": "SQL",
+			"userName": "gowthami",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ3REM3MDY1LUYwMUEtNDA1Qi04NzA0LTBGNjQ3NTFDREI2Nl9jMWE3MmNhMy02ZTEzLTRiNDEtYmY1NS1iZGU1YmIxZDI0YjEiDQp9"
+		}
+	}
+}
